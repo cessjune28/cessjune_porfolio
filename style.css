@@ -19,7 +19,7 @@ body {
 }
  
 nav {
-  background: linear-gradient(90deg, #6366f1, #bf2bcc);
+  background:linear-gradient(90deg, #534a99, #201d2e);
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
   transition: background 0.3s;
   position: fixed;
@@ -50,9 +50,9 @@ nav a {
 }
 
 nav a:hover {
-  background-color: rgb(252, 255, 47);
+  color:#FFD93D;
   border-radius: 5px;
-  color: black;
+
 }
 
 nav li:first-child {
@@ -277,7 +277,7 @@ header {
 .qualifications {
     padding: 60px 20px;
     text-align: center;
-     background: linear-gradient(90deg, #e5e919, #3b80e7);
+     background: linear-gradient(90deg, #279baf, #33d376);
 }
 
 h2 {
@@ -481,7 +481,7 @@ ul li:hover i {
 }
 
 footer {
-  background: linear-gradient(90deg, #6366f1, #bf2bcc);
+  background: linear-gradient(90deg, #5c1731, #201d2e);
     padding: 10px 10px;
 }
 
@@ -566,7 +566,35 @@ footer:hover {
     .skill-box {
         width: 48%;
     }
+  .skills-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .skill-box {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .skill-box h3 {
+    font-size: 22px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
 }
+
+
 
 @media (max-width: 992px) and (min-width: 768px) {
    .hideOnMobile {
@@ -596,8 +624,34 @@ footer:hover {
     .skill-box {
         width: 48%;
     }
-}
 
+    .skills-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .skill-box {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .skill-box h3 {
+    font-size: 22px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
 
 @media (max-width: 480px) {
     .logo {
@@ -644,7 +698,36 @@ footer:hover {
     .skill-box h3 {
         font-size: 22px;
     }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .skill-box {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .skill-box h3 {
+    font-size: 22px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
 }
+
+
 
 @media (max-width: 360px) {
     .hideOnMobile {
@@ -681,8 +764,36 @@ footer:hover {
     }
     .skill-box {
         padding: 15px;
-    }
+    }  
+  .skills-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .skill-box {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .skill-box h3 {
+    font-size: 22px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
 }
+
+
 
 @media screen and (max-width: 600px) {
     .hideOnMobile {
@@ -692,4 +803,33 @@ footer:hover {
   .menu-button {
     display: block;
   }
+
+  .skills-container {
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 10px;
+  }
+
+  .skill-box {
+    width: 100%;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  .skill-box h3 {
+    font-size: 22px;
+  }
+
+  ul li {
+    font-size: 16px;
+  }
+
+  ul li i {
+    font-size: 20px;
+    margin-right: 10px;
+  }
 }
+
+
