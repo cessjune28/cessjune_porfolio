@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <title>Cess_June</title>
+</head>
+<body>
+     
+<script src="./script.js"></script>
+    <!--Navbar-->
+   <nav>
+
+  <ul class="side-bar" id="sidebar">
+    <li><button onclick="hideSidebar()" class="close-btn">✖</button></li>
+    <li><a href="#">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#qualifications">Qualifications</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+
+  <ul>
+    <li><a href="">Cess_<span>June</span></a></li>
+    <li class="hideOnMobile"><a href="#">Home</a></li>
+    <li class="hideOnMobile"><a href="#about">About</a></li>
+    <li class="hideOnMobile"><a href="#qualifications">Qualifications</a></li>
+    <li class="hideOnMobile"><a href="#contact">Contact</a></li>
+    <li class="menu-button" onclick="showSidebar()">
+      <a href="#">☰</a>
+    </li>
+  </ul>
+</nav>
+
+
+            <!-- Home Section -->
+               <header>
+            <section class="hero-content" id="home">
+              <img src="me.jpg" alt="My Photo" class="meowww">
+               
+                    <h1>Hi, <br> I'm Cess June</h1>  <br>
+                     <p>BS Computer Engineering</p>
+                    <p>Future Network & Machine Learning Engineer</p>
+                <a href="Cess_ CV.pdf" target="_blank" class="button">Download my CV</a>  
+            </div>
+            </section>
+             </header>
+             
+
+                <!--About Section-->
+            <section class="about" id="about"> 
+    <div class="fun">
+        <div class="about-text">
+            <h1>About Me!</h1>
+            <p>My name is Princess June G. Oracion; call me Cess. I'm 20 years old and was 
+            born on the 28th day of December 2004 at Abuyog, Leyte. I live in Hills 
+            Subdi. Brgy. Burol I, Dasmarinas, Cavite City. I am a 1st-year college student of 
+            BS Computer Engineering at National College of Science and Technology.</p>
+        </div> 
+    </div>
+</section>
+
+
+           <section class="qualifications" id="qualifications" aria-label="Qualifications section">
+  <h2>Qualifications</h2>
+  <div class="skills-container">
+    <div class="skill-box hard-skills">
+      <h3>Hard Skills</h3>
+      <ul>
+        <li><i class="fab fa-html5"></i> HTML5</li>
+        <li><i class="fas fa-code"></i> C++</li>
+        <li><i class="fab fa-js-square"></i> JavaScript</li>
+        <li><i class="fab fa-css3-alt"></i> CSS</li>
+      </ul>
+    </div>
+
+    <div class="skill-box soft-skills">
+      <h3>Soft Skills</h3>
+      <ul>
+        <li><i class="fas fa-lightbulb"></i> Problem Solving</li>
+        <li><i class="fas fa-clock"></i> Time Management</li>
+        <li><i class="fas fa-users"></i> Teamwork</li>
+        <li><i class="fas fa-sync-alt"></i> Adaptability</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+            <!-- Contact section -->
+            <div class="contact-me">
+                <h2>Contact Me</h2> <br>
+                <form class="contact-form" action="submit.php" method="post" target="_blank">
+                    <label for="full_name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                    <label for="email"> Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                    
+                    <label for="contact">Contact</label>
+                    <input type="contact" id="contact" name="contact" placeholder="Enter your contact" required>
+            
+                    <label for="notes"> Message</label>
+                    <textarea id="notes" name="notes" rows="5" placeholder="Write your message here" required></textarea>
+            
+                    <button type="reset">Reset</button>
+                    <button type="submit">Send Message</button>
+                </form>
+            
+                <p class="contact-message">
+           For any project related inquiries or if you require assistance,
+            please contact me at your convenience using the form provided.
+</p>
+
+             <div class="social-container">
+    <a href="https://www.facebook.com/princessjune.oracion" target="_blank">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+    <a href="https://www.instagram.com/pj_oracion" target="_blank">
+        <i class="fab fa-instagram"></i>
+    </a>
+    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=oracionprincess004@gmail.com" target="_blank">
+
+        <i class="fas fa-envelope"></i>
+    </a>
+</div>
+
+            </div>
+                
+<!-- footer -->
+<footer>
+<p>&copy;2025 Cess_June Website. All rights reserved.</p>
+</div>
+</footer>
+</section>
+  
+
+</body>
+</html>
